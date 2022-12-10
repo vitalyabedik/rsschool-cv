@@ -81,3 +81,31 @@ console.log(printerError('aaaxbbbbyyhwawiwjjjwwm'));
 -   Project link: [Open Beauty shop site](https://vitalyabedik.github.io/Redev.HTML-CSS.Final-project/)
 
 ---
+
+### Education
+
+---
+
+#### **University:**
+
+-   Belarusian National Technical University, Industrial and Civil Engineering, 2011-2016
+-   Academy Of Postgraduate Education: Modern Foreign Language - Referent Translator (English), 2014-2016
+
+#### **Courses:**
+
+-   Redev Education: React, Redux, JavaScript, HTML, CSS, Git
+
+#### **Books:**
+
+-   [learn.javascript.ru](https://learn.javascript.ru/) - The Modern JavaScript Tutorial
+-   You Don't Know JS (UP & Going)
+
+---
+
+### Languages
+
+---
+
+-   Belarussian (native)
+-   Russian (native)
+-   English (B1)
