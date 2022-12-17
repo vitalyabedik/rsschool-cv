@@ -1,1 +1,10 @@
+:root {
+  --primary-dark-color: #19192e;
+  --gray-light-color: #859fb4;
+  --blue-dark-color: #5d87a8;
+  --blue-light-color: #40aaff;
+  --blue-lighter-color: #eaf5fe;
 
+  --title-font: "sf_pro_display_semibold";
+  --main-font: "sf_pro_display_regular";
+}

@@ -1,0 +1,50 @@
+.projects__title {
+  padding-top: 16px;
+}
+.project__cards {
+  display: flex;
+
+  justify-content: space-between;
+}
+
+.project__card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.project__preview {
+  width: 350px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.project__img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-position: bottom;
+}
+
+.project__name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.project__links {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+
+.project__links > a:hover {
+  color: var(--blue-light-color);
+}
+
+.project__links-demo,
+.project__links-github {
+  color: var(--blue-dark-color);
+}
