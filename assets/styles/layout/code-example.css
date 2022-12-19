@@ -1,0 +1,7 @@
+.code-example__title {
+  padding-top: 16px;
+}
+
+.code-example__code {
+  color: var(--blue-dark-color);
+}
