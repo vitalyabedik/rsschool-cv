@@ -1,0 +1,11 @@
+.education__block-bntu {
+  padding-bottom: 16px;
+}
+
+.education__item-degree {
+  color: var(--blue-dark-color);
+}
+
+.education__item-place {
+  padding: 6px 0;
+}

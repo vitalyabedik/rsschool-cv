@@ -4,12 +4,12 @@
 
 ---
 
--   **Phone** +375 (33) 359-90-91
--   **E-mail:** vitalya.bedik@gmail.com
--   **Telegram:** [Vitaly-Bedik-telegram](https://t.me/vitalibedik)
--   **LinkedIn:** [Vitaly-Bedik-linkedin](https://linkedin.com/in/vitalyabedik/)
--   **GitHub:** [Vitaly-Bedik-github](https://github.com/vitalyabedik/)
--   **Location:** Belarus, Soligorsk
+- **Phone** +375 (33) 359-90-91
+- **E-mail:** vitalya.bedik@gmail.com
+- **Telegram:** [Vitaly-Bedik-telegram](https://t.me/vitalibedik)
+- **LinkedIn:** [Vitaly-Bedik-linkedin](https://linkedin.com/in/vitalyabedik/)
+- **GitHub:** [Vitaly-Bedik-github](https://github.com/vitalyabedik/)
+- **Location:** Belarus, Soligorsk
 
 ---
 
@@ -28,15 +28,15 @@ valuable addition to your web development team.
 
 ---
 
--   React, React Router
--   Redux, Redux Thunk, Redux Persist
--   JavaScript (ES6+)
--   HTML5, CSS3, SCSS
--   Ant Design, Bootstrap
--   Axios
--   Git, GitHub, GitFlow
--   Prettier, ESLint
--   VS Code, npm
+- React, React Router
+- Redux, Redux Thunk, Redux Persist
+- JavaScript (ES6+)
+- HTML5, CSS3, SCSS
+- Ant Design, Bootstrap
+- Axios
+- Git, GitHub, GitFlow
+- Prettier, ESLint
+- VS Code, npm
 
 ---
 
@@ -58,11 +58,11 @@ The string has a length greater or equal to one and contains only letters from a
 
 ```javascript
 const printerError = (str) =>
-    str.split('').filter((item) => item.charCodeAt() > 109).length +
-    '/' +
-    str.length;
+  str.split("").filter((item) => item.charCodeAt() > 109).length +
+  "/" +
+  str.length;
 
-console.log(printerError('aaaxbbbbyyhwawiwjjjwwm'));
+console.log(printerError("aaaxbbbbyyhwawiwjjjwwm"));
 ```
 
 ---
@@ -75,10 +75,10 @@ console.log(printerError('aaaxbbbbyyhwawiwjjjwwm'));
 
 #### 1. **Beauty shop**:
 
--   Task: create a beauty shop site by template in Figma
--   Project description: final project in HTML and CSS module with some adaptive layout.
--   Stack: HTML, CSS, Saas
--   Project link: [Open Beauty shop site](https://vitalyabedik.github.io/Redev.HTML-CSS.Final-project/)
+- Task: create a beauty shop site by template in Figma
+- Project description: final project in HTML and CSS module with some adaptive layout.
+- Stack: HTML, CSS, Saas
+- Project link: [Open Beauty shop site](https://vitalyabedik.github.io/Redev.HTML-CSS.Final-project/)
 
 ---
 
@@ -88,17 +88,17 @@ console.log(printerError('aaaxbbbbyyhwawiwjjjwwm'));
 
 #### **University:**
 
--   Belarusian National Technical University, Industrial and Civil Engineering, 2011-2016
--   Academy Of Postgraduate Education: Modern Foreign Language - Referent Translator (English), 2014-2016
+- Belarusian National Technical University, Industrial and Civil Engineering, 2011-2016
+- Academy Of Postgraduate Education: Modern Foreign Language - Referent Translator (English), 2014-2016
 
 #### **Courses:**
 
--   Redev Education: React, Redux, JavaScript, HTML, CSS, Git
+- Redev Education: React, Redux, JavaScript, HTML, CSS, Git
 
 #### **Books:**
 
--   [learn.javascript.ru](https://learn.javascript.ru/) - The Modern JavaScript Tutorial
--   You Don't Know JS (UP & Going)
+- [learn.javascript.ru](https://learn.javascript.ru/) - The Modern JavaScript Tutorial
+- You Don't Know JS (UP & Going)
 
 ---
 
@@ -106,6 +106,6 @@ console.log(printerError('aaaxbbbbyyhwawiwjjjwwm'));
 
 ---
 
--   Belarussian (native)
--   Russian (native)
--   English (B1)
+- Belarusian (native)
+- Russian (native)
+- English (B1)

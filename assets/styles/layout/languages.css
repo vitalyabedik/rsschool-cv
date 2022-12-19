@@ -1,0 +1,7 @@
+.languages-list {
+  list-style: inside;
+}
+
+.languages-item {
+  color: var(--blue-dark-color);
+}

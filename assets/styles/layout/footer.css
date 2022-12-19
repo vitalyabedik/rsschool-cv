@@ -1,0 +1,38 @@
+.footer {
+  background-color: var(--blue-lighter-color);
+  margin-top: 60px;
+}
+
+.footer-items {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-items {
+  color: var(--blue-light-color);
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.footer-github {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.footer-github__icon {
+  color: var(--primary-dark-color);
+  font-size: 36px;
+  cursor: pointer;
+}
+
+.footer-github__text {
+  padding-left: 10px;
+}
+
+.footer-rsschool__img {
+  width: 120px;
+  height: 40px;
+}

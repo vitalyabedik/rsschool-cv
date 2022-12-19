@@ -1,0 +1,15 @@
+.contacts__item > a {
+  color: var(--blue-dark-color);
+}
+
+.contacts__item > a:hover {
+  color: var(--blue-light-color);
+}
+
+.contacts__item-icon {
+  color: var(--blue-light-color);
+}
+
+.contacts li:not(:first-child) {
+  padding-top: 6px;
+}

@@ -1,10 +1,391 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" >
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-        <title>CV</title>
-    </head>
-    <body></body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitali Bedik CV</title>
+    <link rel="stylesheet" href="./assets/styles/index.css">
+    <script src="https://kit.fontawesome.com/4200602909.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="#About">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="#Contacts">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="#Education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="#Skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="#Languages">Languages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="#Experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="#Projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-item__link" href="#Code">Code example</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="section profile">
+                <img class="profile__img" src="./assets/img/cv.jpg" alt="CV image">
+                <h1 class="profile__title">Vitali Bedik</h1>
+                <p class="profile__position tag">Front-End Developer</p>
+            </section>
+
+            <div class="columns">
+                <div class="column-left">
+                    <section class="section about">
+                        <h2 class="section-title" id="About">About me</h2>
+                        <p class="section-description">
+                            I'm an enthusiastic and detail-oriented Front-end Developer
+                            seeking
+                            an
+                            entry-level position. I believe that my technical skills and knowledge of will render me a
+                            valuable
+                            addition to your web development team.
+                        </p>
+                    </section>
+
+                    <section class="section education">
+                        <h2 class="section-title" id="Education">Education</h2>
+                        <div class="education__block-bntu">
+                            <ul class="education-list">
+                                <li class="education__item">
+                                    <p class="education__item-degree">
+                                        Bachelor's degree in Industrial and Civil Engineering
+                                    </p>
+                                </li>
+                                <li class="education__item">
+                                    <p class="education__item-place">
+                                        <span class="prefix-icon">
+                                            <i class="fa-solid fa-building-columns"></i>
+                                        </span>
+                                        Belarusian
+                                        National
+                                        Technical University
+                                    </p>
+                                </li>
+                                <li class="education__item">
+                                    <p class="education__item-time">
+                                        <span class="prefix-icon">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                        </span>
+                                        2011-2016
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="education__block-apo">
+                            <ul class="education-list">
+                                <li class="education__item">
+                                    <p class="education__item-degree">
+                                        Modern Foreign Language - Referent Translator (English)
+                                    </p>
+                                </li>
+                                <li class="education__item">
+                                    <p class="education__item-place">
+                                        <span class="prefix-icon">
+                                            <i class="fa-solid fa-building-columns"></i>
+                                        </span>
+                                        Academy Of Postgraduate
+                                        Education
+                                    </p>
+                                </li>
+                                <li class="education__item">
+                                    <p class="education__item-time">
+                                        <span class="prefix-icon">
+                                            <i class="fa-solid fa-calendar-days"></i>
+                                        </span>
+                                        2015-2016
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section class="section languages">
+                        <h2 class="section-title" id="Languages">Languages</h2>
+                        <ul class="languages-list">
+                            <li class="languages-item"> English (B1)</li>
+                            <li class="languages-item"> Belarusian (native)</li>
+                            <li class="languages-item"> Russian (native)</li>
+                        </ul>
+                    </section>
+                </div>
+
+                <div class="column-right">
+                    <section class="section contacts">
+                        <h2 class="section-title" id="Contacts">Contacts</h2>
+                        <ul class="contacts__list">
+                            <li class="contacts__item">
+                                <a class="contacts__item-email" href="mailto:vitalya.bedik@gmail.com" target="_blank">
+                                    <span class="contacts__item-icon prefix-icon">
+                                        <i class="fa-regular fa-envelope"></i>
+                                    </span>
+                                    vitalya.bedik@gmail.com
+                                </a>
+                            </li>
+                            <li class="contacts__item">
+                                <a class="contacts__item-telegram" href="https://t.me/vitalibedik" target="_blank">
+                                    <span class="contacts__item-icon prefix-icon">
+                                        <i class="fa-brands fa-telegram"></i>
+                                    </span>
+                                    t.me/vitalibedik
+                                </a>
+                            </li>
+                            <li class="contacts__item">
+                                <a class="contacts__item-linkedin" href="https://www.linkedin.com/in/vitalyabedik/"
+                                    target="_blank">
+                                    <span class="contacts__item-icon prefix-icon">
+                                        <i class="fa-brands fa-linkedin"></i>
+                                    </span>
+                                    linkedin.com/in/vitalyabedik/
+                                </a>
+                            </li>
+                            <li class="contacts__item">
+                                <a class="contacts__item-discord"
+                                    href="https://discordapp.com/users/1051562076969119754/" target="_blank">
+                                    <span class="contacts__item-icon prefix-icon">
+                                        <i class="fa-brands fa-discord"></i>
+                                    </span>
+                                    Discord: Mocsmart#9274
+                                </a>
+                            </li>
+                            <li class="contacts__item">
+                                <a class="contacts__item-location"
+                                    href="https://www.google.com/maps/place/%D0%A1%D0%BE%D0%BB%D0%B8%D0%B3%D0%BE%D1%80%D1%81%D0%BA/@52.789555,27.5150169,13z/data=!3m1!4b1!4m5!3m4!1s0x46d8304d8e487623:0xdc7ee99102d56088!8m2!3d52.786267!4d27.5243197"
+                                    target="_blank">
+                                    <span class="contacts__item-icon prefix-icon">
+                                        <i class="fa-sharp fa-solid fa-location-dot"></i>
+                                    </span>
+                                    Belarus, Soligorsk
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="section skills">
+                        <h2 class="section-title" id="Skills">Skills</h2>
+                        <ul class="skills__list">
+                            <li class="skills__items tag">HTML5</li>
+                            <li class="skills__items tag">CSS3</li>
+                            <li class="skills__items tag">Javascript</li>
+                            <li class="skills__items tag">React</li>
+                            <li class="skills__items tag">Redux</li>
+                            <li class="skills__items tag">React Router</li>
+                            <li class="skills__items tag">Redux Thunk</li>
+                            <li class="skills__items tag">Ant Design</li>
+                            <li class="skills__items tag">SCSS</li>
+                            <li class="skills__items tag">Saas</li>
+                            <li class="skills__items tag">Git</li>
+                            <li class="skills__items tag">GitHub</li>
+                            <li class="skills__items tag">Axios</li>
+                        </ul>
+                    </section>
+                </div>
+            </div>
+            <section class="section experience">
+                <h2 class="section-title experience__title" id="Experience">Experience</h2>
+                <div class="experience__items">
+                    <div class="experience__item">
+                        <div class="experience__item-position">
+                            <p class="experience__item-description">Javascript Developer - Stage #0</p>
+                            <p class="tag">Professional education</p>
+                        </div>
+                        <div class="experience__item-company">
+                            <p>
+                                <span class="prefix-icon">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                </span>
+                                Rolling Scopes School
+                            </p>
+                        </div>
+                        <div class="experience__item-time">
+                            <p>
+                                <span class="prefix-icon">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </span>
+                                Dec.2022 - <span class="tag">present</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience__item">
+                        <div class="experience__item-position">
+                            <p class="experience__item-description">Front-End Developer</p>
+                            <p class="tag">Professional education</p>
+                        </div>
+                        <div class="experience__item-company">
+                            <p>
+                                <span class="prefix-icon">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                </span>
+                                Redev Education
+                            </p>
+                        </div>
+                        <div class="experience__item-time">
+                            <p>
+                                <span class="prefix-icon">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </span>
+                                Feb.2022 - <span class="tag">present</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience__item">
+                        <div class="experience__item-position">
+                            <p class="experience__item-description">Middle Structural Design Engineer</p>
+                            <p class="tag">Full time</p>
+                        </div>
+                        <div class="experience__item-company">
+                            <p>
+                                <span class="prefix-icon">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                </span>
+                                Project Unitary Company "Kaliproekt"
+                            </p>
+                        </div>
+                        <div class="experience__item-time">
+                            <p>
+                                <span class="prefix-icon">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </span>
+                                dec.2017 - <span class="tag">present</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="experience__item">
+                        <div class="experience__item-position">
+                            <p class="experience__item-description">Structural Design Engineer</p>
+                            <p class="tag">Full time</p>
+                        </div>
+                        <div class="experience__item-company">
+                            <p>
+                                <span class="prefix-icon">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                </span>
+                                JSC "Building Trust №3" Design and Engineering Workshop
+                                "Stroyproekt"
+                            </p>
+                        </div>
+                        <div class="experience__item-time">
+                            <p>
+                                <span class="prefix-icon">
+                                    <i class="fa-solid fa-calendar-days"></i>
+                                </span>
+                                aug. 2016 - may 2017
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section projects">
+                <h2 class="section-title projects__title" id="Projects">Projects</h2>
+                <div class="project__cards">
+                    <div class="project__card">
+                        <div class="project__preview">
+                            <img class="project__img" src="./assets/img/weather-app.png" alt="project img">
+                        </div>
+                        <div class="project__info">
+                            <div class="project__name">
+                                <h3>Weather and Notes</h3>
+                            </div>
+                            <div class="project__links">
+                                <a class="project__links-demo" href="https://vitalyabedik.github.io/weather-test/"
+                                    target="_blank">
+                                    <span class="contacts__item-icon prefix-icon">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </span>
+                                    View project demo
+                                </a>
+                                <a class="project__links-github" href="https://github.com/vitalyabedik/weather-test"
+                                    target="_blank">
+                                    <span class="contacts__item-icon prefix-icon">
+                                        <i class="fa-brands fa-github"></i>
+                                    </span>
+                                    View project repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project__card">
+                        <div class="project__preview">
+                            <img class="project__img" src="./assets/img/beauty-shop.png" alt="project img">
+                        </div>
+                        <div class="project__info">
+                            <div class="project__name">
+                                <h3>Beauty Shop</h3>
+                            </div>
+                            <div class="project__links">
+                                <a class="project__links-demo"
+                                    href="https://vitalyabedik.github.io/Redev.HTML-CSS.Final-project/" target="_blank">
+                                    <span class="contacts__item-icon prefix-icon">
+                                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                    </span>
+                                    View project demo
+                                </a>
+                                <a class="project__links-github"
+                                    href="https://github.com/vitalyabedik/Redev.HTML-CSS.Final-project" target="_blank">
+                                    <span class="contacts__item-icon prefix-icon">
+                                        <i class="fa-brands fa-github"></i>
+                                    </span>
+                                    View project repository
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section code-example">
+                <h2 class="section-title code-example__title" id="Code">Code example</h2>
+                <pre class="code-example__code">const printerError = (str) => str.split("").filter((item) => item.charCodeAt() > 109).length + "/" + str.length;
+console.log(printerError("aaaxbbbbyyhwawiwjjjwwm"));
+</pre>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-items">
+                <div class="footer-github">
+                    <a class="footer-github__icon" href="https://github.com/vitalyabedik">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <p class="footer-github__text">Welcome to my GitHub</p>
+                </div>
+                <div class="footer-info">
+                    <p class="footer-info__text">Created by Vitali Bedik, © 2022 </p>
+                </div>
+                <div class="footer-rsschool">
+                    <a href="https://rs.school/js/">
+                        <img class="footer-rsschool__img" src="./assets/svg/rs.svg" alt="RS School_logo">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>
